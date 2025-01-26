@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Student SignUp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main id="mainContainer">
+
+
+        <section class="signUp" id="signUp">
+
+            <header id="header">
+                <h1> Sign Up for E-Box </h1>
+                <p> Please tell us a bit about yourself </p>
+            </header>
+
+            <form id="form">
+                <label for="name"> Name </label>
+                <input id="name" type="text" placeholder="Jane" required>
+
+                <label for="email"> E-mail </label>
+                <input id="email" type="email" placeholder="Doe" required>
+
+                <label for="phone"> Phone Number</label>
+                <input id="phone" type="number" placeholder="1234678" required>
+
+                <label for="password"> Password </label>
+                <input id="password" type="password" placeholder="*******" required>
+
+                <button type="submit" class="button"> Sign Up </button>
+            </form>
+
+            <footer id="footer"> 
+                <p>Or sign up with</p>
+                <div class="social-buttons-container">
+                    <a href="https://google.com" target="_blank" class="social-btn" id="google">Google</a>
+                    <a href="https://facebook.com" target="_blank" class="social-btn" id="facebook">Facebook</a>
+                </div>
+            </footer>
+            
+
+        </section>
+
+    </main>
+</body>
+</html>
